@@ -1,0 +1,26 @@
+
+body{
+    margin: auto;
+    width: 60%;
+    border: 3px solid gold;
+    padding: 10px;
+}
+
+
+
+
+h1 {
+    font-family: 'Russo One', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 80px; 
+    text-align: center; 
+    color: whitesmoke; 
+    
+}
+
+h2{
+    font-family: 'Bangers', cursive;
+    color: red; 
+    font-size: 40px;
+    text-align: center; 
+}
