@@ -1,30 +1,59 @@
-<!DOCTYPE html> 
-<head>
-
-</head>
-
-<body>
-
-</body>
-
-
-
-
-
 <!DOCTYPE html>
 <head>
         <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="https://bootswatch.com/4/darkly/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        
 </head>
 
 <body>
-    <h1>
-        Word Guess Game:
-    </h1>
+    <div class="Title">
+        <h1>
+            Word Guess Game:
+        </h1>
         <h2>
             Hangman 
         </h2>
+    </div>
+     <div class="row">
+        <div class="box">
+        <img src="https://image.freepik.com/free-icon/musical-note-symbol_318-32225.jpg">
+       <p>
+           Featured Artists: 
+       </p>
+       
+       
+       <ul>
+            <li>Drake</li> 
+            <li>Taylor Swift</li> 
+            <li>Beyonce</li>
+            <li>One Direction</li>
+            <li>Ed Sheeran</li>
+       </ul>
+
+    </div>
+        <div class="box2">
+            <p>
+                Press any Key to Get Started!
+            </p>
+            <p>
+                Music Themed! 
+            </p>
+            <h3>Current Word </h3>
+            <p id="correct"></p>
+
+            <ul class="letter"></ul>
+        </div>
+
+    </div>
+
+      <p>
+        <span id="remain">6</span> lives remain
+      </p>
+      
+      <script src="assets/javascript/game.js"></script>
+
+
 </body>
 
 </html>
