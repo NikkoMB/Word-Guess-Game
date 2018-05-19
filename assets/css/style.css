@@ -60,3 +60,15 @@ ul {
 h3 {
     text-align: center; 
 }
+
+#letter {
+    text-align: center; 
+}
+
+#guessesLeft {
+   text-align: center; 
+}
+
+#blankSpaces {
+    text-align: center; 
+}
