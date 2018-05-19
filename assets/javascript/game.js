@@ -1,6 +1,7 @@
 //Computer picks random word to guess
 (function(){
-			
+            
+    var alphabet = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
     //This code captures the keypress and prints it out on the screen
     var guessesLeft = 9;
     document.getElementById("guessesLeft").innerHTML = guessesLeft; 
