@@ -13,7 +13,7 @@
     document.getElementById("guessesLeft").innerHTML = guessesLeft; 
 
     
-              //document.getElementById("letter").innerHTML = spacedLetters;
+      document.getElementById("letter").innerHTML = spacedLetters;
       //Space out possibleWord
       var originalLength = possibleWord.length;
       for (i = 0; i < originalLength; i++) {
@@ -71,7 +71,7 @@
       document.getElementById("guessesLeft").innerHTML = guessesLeft;
 
 
-      var   
+  
   }
   console.log(words)
   console.log(possibleWord)
